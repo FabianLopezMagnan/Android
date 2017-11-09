@@ -1,0 +1,99 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/alochino"
+android:orientation="vertical"
+tools:context=".Login">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Usuario"
+        android:textColor="@color/letras"
+        android:textSize="20dp"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/nombre"
+
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@color/btn2"
+        android:inputType="textPersonName"
+        android:textSize="30dp"
+        android:text=""
+        android:textColor="@color/letras" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="35dp"
+    android:layout_marginRight="25dp"
+    android:textColor="@color/letras"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clave"
+        android:textSize="20dp"
+        android:textColor="@color/letras"
+        android:layout_weight="1"/>
+
+    <EditText
+        android:id="@+id/clave"
+
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:background="@color/btn2"
+        android:inputType="text|textPassword"
+        android:textSize="30dp"
+        android:textColor="@color/letras"
+        android:text="" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/btnI"
+
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letras"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@color/btn1"
+        android:textSize="20dp"
+        android:text="Ingresar" />
+    <Button
+        android:id="@+id/btnR"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/letras"
+        android:fontFamily="sans-serif-condensed"
+        android:background="@color/btn1"
+        android:textSize="20dp"
+        android:text="Registrarse" />
+
+</LinearLayout>

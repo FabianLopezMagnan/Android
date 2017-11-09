@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alochino"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/saludo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido(a) + NOMBRE"
+            android:textColor="@color/letras"
+            android:textSize="26dp" />
+        <TextView
+            android:id="@+id/signo"
+            android:text="Tu signo es + SIGNO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/letras"
+            android:textSize="26dp"
+            />
+            <ImageView
+                android:id="@+id/animal"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"/>
+        <TextView
+            android:id="@+id/texto"
+            android:textSize="15dp"
+            android:textColor="@color/letras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/consultar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/letras"
+            android:fontFamily="sans-serif-condensed"
+            android:background="@color/btn1"
+            android:textSize="20dp"
+            android:text="Consultar por año" />
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
